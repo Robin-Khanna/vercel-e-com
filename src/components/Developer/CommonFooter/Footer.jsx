@@ -12,7 +12,8 @@ import securePaymentImg from '../../../assets/images/secure-payment.png';
 import supportImg from '../../../assets/images/support.png';
 import visaImg from '../../../assets/images/visa.png';
 import paypalImg from '../../../assets/images/paypal.png';
-import mastercardImg from '../../../assets/images/mastercard.png';
+import mastercardImg from '../../../assets/images/Mastercard.png';
+
 
 
 
