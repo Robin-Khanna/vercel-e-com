@@ -116,7 +116,7 @@
 .footer-top-content-newsletter h1{
     font-size: 16px;
     color: var(--text-darker);
-    font-size: 900;
+    font-weight: 900;
 }
 
 .footer-top-content-link p, 
