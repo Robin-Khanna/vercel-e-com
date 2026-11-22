@@ -1,0 +1,39 @@
+@import '../../../styles/global.css';
+
+
+.search-bar {
+  flex: 1;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 10px 0 15px;
+  border: 1px solid var(--soft-border);
+  border-radius: 25px;
+}
+.search-bar ::placeholder{
+  color: var(--secondary);
+}
+
+.search-bar input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-size: 12px;
+  background: transparent;
+}
+
+.search-icon {
+  font-size: 30px;
+  color: var(--primary);
+}
+
+.search-bar button {
+  border: none;
+  background: var(--blue-hard-secoundry-bg);
+  color: var(--text-soft-white);
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}

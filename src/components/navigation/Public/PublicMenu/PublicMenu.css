@@ -1,0 +1,113 @@
+
+.public-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  max-width: 85%;
+  height: 100vh;
+  background: #ffffff;
+  padding: 25px;
+  z-index: 1001;
+  overflow-y: auto;
+
+  transform: translateX(-100%);
+  transition: transform 0.35s ease;
+}
+
+.public-menu.open {
+  transform: translateX(0);
+}
+
+/* Menu Header */
+
+.menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.menu-header h2 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.public-menu button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  font-size: 22px;
+}
+
+.menu-close {
+  color: #222;
+}
+
+/* Menu Navigation */
+
+.menu-navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.menu-link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 13px 12px;
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 7px;
+  transition: 0.25s ease;
+}
+
+.menu-link:hover {
+  background: #eef2ff;
+  color: #3567e8;
+}
+
+.menu-number {
+  width: 27px;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eef2ff;
+  color: #3567e8;
+  border-radius: 50%;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* Overlay */
+
+.menu-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: 0.35s ease;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.menu-overlay.show {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+/* Mobile */
+
+@media (max-width: 480px) {
+  .public-menu {
+    width: 280px;
+    padding: 20px;
+  }
+}

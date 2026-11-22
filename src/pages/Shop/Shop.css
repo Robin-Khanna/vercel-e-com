@@ -1,0 +1,24 @@
+
+.shop-container {
+  padding: 30px;
+}
+
+.shop-header {
+  margin-bottom: 25px;
+}
+
+.shop-header h2 {
+  font-size: 26px;
+  margin-bottom: 8px;
+}
+
+.shop-header p {
+  color: #777;
+}
+
+.shop-products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+}
+

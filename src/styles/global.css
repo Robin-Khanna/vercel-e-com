@@ -1,0 +1,84 @@
+:root {
+    /* Brand Colors----------- */
+    --primary: #1E63F3;
+    --secondary: #4F8CFF;
+    --primary-hover: #1652D4;
+
+    /* Background------------ */
+    --black-hard-bg: #000000;
+    --white-hard-bg: #ffffff;
+    --white-darker-bg: #f4f2f2ed;
+    --blue-hard-primary-bg: #1E63F3;
+    --blue-hard-secoundry-bg: #4F8CFF;
+    --blue-primary-hard-hover-bg: #1652D4;
+    --blue-soft-bg: #b8d1ff3d;
+    --red-soft-bg: #ffc2c269;
+    --green-soft-bg: #c4fdc768;
+    --oliv-soft-bg: #cccc474d;
+    --yellow-soft-bg: #fafa5156;
+
+    /* Text---------------- */
+    --text-blue-primary: #1E63F3;
+    --text-blue-secondary: #4F8CFF;
+    --text-blue-primary-hover: #1652D4;
+    --text-soft-white: #ffffff;
+    --text-darker: #1A1A1A;
+    --text-secondary: #5F6C87;
+    --text-muted: #8A94A6;
+    --text-hard-red: #e21336;
+    --text-primary-green: #22C55E;
+    --text-secoundry-green: #038131;
+    --text-danger: #EF4444;
+    --text-warning: #F59E0B;
+
+
+    /* social colors */
+    --instagram-color: #E4405F;
+    --facebook-color: #1877F2;
+    --twitter-color: #1DA1F2;
+    --youtube-color: #FF0000;
+
+    /* Border----------- */
+    --border: #f4f5f7ba;
+    --soft-border: #D5DDED;
+    --border-hover: #b8b4b4;
+    
+    /* Status--------- */
+    --success: #22C55E;
+    --sale: #FF5A5F;
+    --danger: #EF4444;
+    --star: #FFC107;
+    --warning: #F59E0B;
+
+    /* Shadow--------- */
+    --shadow-sm: 0 2px 8px rgba(30, 99, 243, 0.05);
+    --shadow-md: 0 8px 20px rgba(30, 99, 243, 0.08);
+    --shadow-lg: 0 15px 40px rgba(30, 97, 243, 0.182);
+
+
+    /* Transition--------- */
+    --transition: .3s ease;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    max-width: 1200px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 20px;
+}

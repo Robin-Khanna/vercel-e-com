@@ -1,0 +1,32 @@
+ 
+@import '../../../styles/global.css';
+
+.wishlist {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 15px;
+  color: var(--primary);
+}
+
+.wishlist-icon {
+    color: var(--text-hard-red);
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.wishlist-count {
+    margin-top: 3px;
+  background: var(--text-blue-primary);
+  color: var(--text-soft-white);
+  font-size: 11px;
+  min-width: 18px;
+  border: none;
+  height: 18px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

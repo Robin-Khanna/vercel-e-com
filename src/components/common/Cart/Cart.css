@@ -1,0 +1,30 @@
+@import '../../../styles/global.css';
+
+
+
+
+.cart {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #222;
+  font-size: 15px;
+  cursor: pointer;
+}
+.cart-icon {
+  font-size: 23px;
+}
+
+
+.cart-count {
+  min-width: 18px;
+  height: 18px;
+  padding: 4 4px;
+  border-radius: 50px;
+  background: var(--text-blue-primary);
+  color: white;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
